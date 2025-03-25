@@ -1,17 +1,23 @@
 h1 {
-    font-size:larger;
+    font-size: xx-large;
     font-style: italic;
     color: blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2 {
-    font-size: large;
-    color: red;
+    font-size: larger;
+    color: rgb(216, 58, 58);
 }
-
+h3 {
+    color: blue;
+}
 .title{
     color: brown
 
 }
-
+.doing {
+    width: fit-content;
+    border: 3px solid blue 
+    
+}
