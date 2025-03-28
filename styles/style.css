@@ -1,23 +1,77 @@
-h1 {
-    font-size: xx-large;
-    font-style: italic;
-    color: blue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* boackground style */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=2930");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
-    font-size: larger;
-    color: rgb(216, 58, 58);
-}
-h3 {
-    color: blue;
-}
-.title{
-    color: brown
-
-}
-.doing {
+/* heading style */
+#main-title {
+    background-color: rgb(233, 88, 196);
+    padding: 10px;
     width: fit-content;
-    border: 3px solid blue 
-    
+    border-radius: 8px;
+    color: white;
+}
+
+/* navigation stlye */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5a2d82;
+}
+
+/* body style */
+.description {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* block style */
+.block {
+    background-color: rgba(255, 228, 225, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+}
+
+/* inline text */
+.inline-text {
+    color: red;
+    font-weight: bold;
+}
+
+/* time style */
+.business-hours {
+    background-color: yellow;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* map style */
+.map {
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+    border: 0;
+    display: block;
+    margin: auto;
 }
